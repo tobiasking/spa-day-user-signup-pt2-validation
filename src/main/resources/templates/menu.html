@@ -18,13 +18,13 @@
 </div>
 </div>
 <div id = "servicesMenu">
-    <h2>My Services</h2>
+    <h2>Services</h2>
     <table>
         <tr><th>Facial Treatments</th></tr>
 
-        <th:block th:each="fac : ${appropriateFacials}">
+        <th:block th:each="face : ${appropriateFacials}">
             <tr>
-                <td th:text="${fac}"></td>
+                <td th:text="${face}"></td>
             </tr>
         </th:block>
     </table>
